@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description","> Popis stránky"
     "> Delete page","> Smazat stránku"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Smazat $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Smazat $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Zkontrolovat aktualizace"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Smazat $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Smazat $1?"""
     ">Active","> Aktivovat"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivovat $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivovat $1?"""
     "> Activate","> Aktivní"
     "> More info","> Více informací"
     "> Install","> Nainstalovat"

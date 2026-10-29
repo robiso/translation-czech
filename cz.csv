@@ -145,7 +145,7 @@ ALERTS
     "^Wrong password\.$","Nesprávné heslo."
     "^Cannot get content from url \(HTTP (\d+)\)\.$","Obsah z adresy URL nelze načíst (HTTP $1)."
     "^Cannot get content from url\.$","Obsah z adresy URL nelze načíst."
-    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","Stažený soubor nebyl úplné a novější jádro WonderCMS; nic nebylo změněno. Zkuste to znovu za několik minut."
+    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","Stažený soubor neobsahoval úplné a novější jádro WonderCMS; nic nebylo změněno. Zkuste to znovu za několik minut."
     "Could not write the new index\.php\. Check the free disk space and the permissions of index\.php and its folder, then try again\.","Nový soubor index.php nelze zapsat. Zkontrolujte volné místo na disku a oprávnění souboru index.php a jeho složky a zkuste to znovu."
     "Theme <b>([^<]*)<\/b> is not installed\. Showing the Sky theme instead\.","Šablona <b>$1</b> není nainstalována. Místo ní se zobrazuje šablona Sky."
     "Theme <b>([^<]*)<\/b> failed to load: ","Šablonu <b>$1</b> se nepodařilo načíst: "

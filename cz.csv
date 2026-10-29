@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Nastavení"
+    "return confirm\('Log out\?'\)","return confirm('Odhlásit se?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Název stránky"
     ">Page to display on homepage","> Nastavit stránku jako domovskou"
     ">visit","> zobrazit"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Nastavit stránku jako soukromou (uvidíte ji jen vy, když jste přihlášeni)"""
+    "title=""Make page public""","title=""Nastavit stránku jako veřejnou"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> soukromá</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> veřejná</a>"
     "> Add page","> Přidat stránku"
 
 
@@ -39,25 +44,31 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Zkontrolovat aktualizace"
+    "title=""Remove this repository from the list""","title=""Odebrat toto úložiště ze seznamu"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Odebrat $1? Vše, co z něj bylo nainstalováno, zůstane."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Smazat $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Smazat $1?"""
     ">Active","> Aktivovat"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivovat $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivovat $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Deaktivovat $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Toto je plugin typu $1. Instalace $2 deaktivuje $3. Pokračovat?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Toto je plugin typu $1. Aktualizace $2 ho ponechá aktivní a deaktivuje $3. Pokračovat?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Toto je plugin typu $1. Aktivace $2 deaktivuje $3. Pokračovat?"""
     "> Activate","> Aktivní"
     "> More info","> Více informací"
     "> Install","> Nainstalovat"
     ">Installed version:","> Instalovaná verze:"
     ">Custom repository","> Externí úložiště"
     "Enter URL to custom repository","Vložte odkaz na externí úložiště."
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Přidávání neznámých modulů může být VELMI nebezpečné, opravdu chcete pokračovat?')"
     "> Add","> Přidat"
     "> Read more about custom repositories","> Přečtěte si více o externích úložištích"
 
 
 SECURITY
     ">Admin login URL","> Správcovská přihlašovací adresa"
-    ">Save your login URL to log in to your website next time:","> Ulož
-    si tento odkaz, aby jses přihlásil:"
+    ">Save your login URL to log in to your website next time:","> Ulož si tento odkaz, aby ses přihlásil:"
     ">Password","> Heslo"
     "Old password"," Staré heslo"
     "New password","Nové heslo"
@@ -68,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> Přesměrování HTTPS, 30denní ukládání do mezipaměti, prvky iframe povolené pouze ze stejného původu, prevence sniffování typu MIME, přísnější zásady pro soubory cookie a doporučení."
     ">ON \(warning: may break your website\)","> ZAPNOUT \(Upozornění: může rozbít váš web\)"
     ">OFF \(reset htaccess to default\)","> VYPNOUT \(obnoví htacces do původního nastavení\)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Jste si jisti? Pokud nemáte správně nastavené SSL, může to rozbít váš web.')"
     "> Read more before enabling","> Přečtěte si více před aktivováním"
     ">Backup","> Záloha"
     "> Backup website","> Záloha webových stránek"

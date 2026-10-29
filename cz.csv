@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Vlastní modul nebyl nalezen."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Vlastní modul <b>$1</b> byl odebrán ze sekce <a $2>$3</a>. Vše, co z něj bylo nainstalováno, zůstane, dokud to neodeberete."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Modul byl úspěšně přidán do sekce <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Všechny zbývající stránky jsou soukromé, takže i nová domovská stránka ($1) je soukromá: návštěvníci na adrese webu dostanou stránku 404. Zveřejněte ji v Nastavení -> Menu."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","Soukromá stránka nemůže být domovskou stránkou: návštěvníci by na adrese webu dostali stránku 404. Nejprve ji zveřejněte."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","Soubor $1 nelze zapsat. Zkontrolujte volné místo na disku a oprávnění složky data; nic nebylo změněno."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","Tuto stránku nelze uložit: její nadřazená stránka neexistuje. Nejprve vytvořte nadřazenou stránku."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Otevřete možnosti souborů a uvidíte nahraný soubor</b>"
     "^Cannot create ZIP archive\.$","Archiv ZIP nelze vytvořit."
     "^Hide all alerts until next login$","Skrýt všechna upozornění do příštího přihlášení"
+    "^Make another page public first: the home page cannot be private\.$","Nejprve zveřejněte jinou stránku: domovská stránka nemůže být soukromá."
